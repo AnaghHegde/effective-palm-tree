@@ -6,7 +6,7 @@
     "pluginType": "JS",
     "actions": [],
     "archivedActions": [],
-    "body": "export default {\n\tgetString: () => {\n\t\treturn \"Appsmith\";\n\t}\n}",
+    "body": "export default {\n\tgetString: () => {\n\t\treturn \"Appsmith\";\n\t},\n\tgetData: async() => {\n\t\tconst data = await FindQuery.run();\n\t\treturn data;\n\t}\n}",
     "variables": []
   },
   "id": "Page1_JSObject1",

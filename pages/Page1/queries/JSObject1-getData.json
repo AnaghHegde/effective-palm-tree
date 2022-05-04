@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "getString",
-    "fullyQualifiedName": "JSObject1.getString",
+    "name": "getData",
+    "fullyQualifiedName": "JSObject1.getData",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -16,14 +16,14 @@
     "pageId": "Page1",
     "collectionId": "Page1_JSObject1",
     "actionConfiguration": {
-      "timeoutInMillisecond": 10000,
+      "timeoutInMillisecond": 0,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {\n\t\treturn \"Appsmith\";\n\t}",
+      "body": "async() => {\n\t\tconst data = await FindQuery.run();\n\t\treturn data;\n\t}",
       "jsArguments": [],
-      "isAsync": false
+      "isAsync": true
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -33,14 +33,14 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "() => {\n\t\treturn \"Appsmith\";\n\t}"
+      "async() => {\n\t\tconst data = await FindQuery.run();\n\t\treturn data;\n\t}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Page1_JSObject1.getString",
+  "id": "Page1_JSObject1.getData",
   "deleted": false,
-  "gitSyncId": "6272548f7841f014c8978cdd_627256387841f014c8978e8a"
+  "gitSyncId": "6272569a7841f014c8978e98_627257237841f014c8978ee5"
 }

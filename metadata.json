@@ -222,6 +222,14 @@
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
     },
+    "Page1_FindQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Page1_JSObject1.getData": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
     "Page1_JSObject1.getString": {
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
@@ -269,6 +277,9 @@
     ],
     "Movies Copy2 Copy Copy Copy Copy Copy": [
       "data_table"
+    ],
+    "Page1": [
+      "data_table"
     ]
   },
   "unpublishedLayoutmongoEscapedWidgets": {
@@ -297,6 +308,9 @@
       "data_table"
     ],
     "Movies Copy2 Copy Copy Copy Copy Copy": [
+      "data_table"
+    ],
+    "Page1": [
       "data_table"
     ]
   },
