@@ -6,14 +6,36 @@
     "Home Copy",
     "Home Copy Copy",
     "Home Copy1",
-    "Movies"
+    "Movies",
+    "Page1",
+    "Page2",
+    "Page3",
+    "Page4",
+    "Page5",
+    "Page6",
+    "Page7",
+    "Page8",
+    "Page9",
+    "Page10",
+    "Page11"
   ],
   "publishedPageOrder": [
     "Home",
     "Home Copy",
     "Home Copy Copy",
     "Home Copy1",
-    "Movies"
+    "Movies",
+    "Page1",
+    "Page2",
+    "Page3",
+    "Page4",
+    "Page5",
+    "Page6",
+    "Page7",
+    "Page8",
+    "Page9",
+    "Page10",
+    "Page11"
   ],
   "publishedDefaultPageName": "Home",
   "unpublishedDefaultPageName": "Home",
@@ -225,6 +247,22 @@
     "Movies_UpdateQuery": {
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
+    },
+    "Page11_DeleteQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Page11_FindQuery": {
+      "unpublishedUserSetOnLoad": true,
+      "publishedUserSetOnLoad": true
+    },
+    "Page11_InsertQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Page11_UpdateQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
     }
   },
   "publishedTheme": {
@@ -245,10 +283,16 @@
   "publishedLayoutmongoEscapedWidgets": {
     "Movies": [
       "data_table"
+    ],
+    "Page11": [
+      "data_table"
     ]
   },
   "unpublishedLayoutmongoEscapedWidgets": {
     "Movies": [
+      "data_table"
+    ],
+    "Page11": [
       "data_table"
     ]
   },
