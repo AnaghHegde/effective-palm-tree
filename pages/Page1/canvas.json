@@ -37,10 +37,16 @@
               "animateLoading": true,
               "overflow": "NONE",
               "parentColumnSpace": 12.5625,
+              "dynamicTriggerPathList": [],
               "leftColumn": 10,
+              "dynamicBindingPathList": [
+                {
+                  "key": "text"
+                }
+              ],
               "shouldTruncate": false,
               "truncateButtonColor": "#FFC13D",
-              "text": "Label",
+              "text": "{{JSObject1.getString()}}",
               "key": "t7ectlrbv4",
               "rightColumn": 26,
               "textAlign": "LEFT",
