@@ -1,0 +1,16 @@
+{
+  "viewMode": false,
+  "appIsExample": false,
+  "unreadCommentThreads": 0,
+  "color": "#C7F3E3",
+  "icon": "pizza",
+  "evaluationVersion": 2,
+  "applicationVersion": 2,
+  "forkingEnabled": true,
+  "isManualUpdate": false,
+  "createdAt": {
+    "seconds": 1651579234,
+    "nanos": 29000000
+  },
+  "deleted": false
+}
