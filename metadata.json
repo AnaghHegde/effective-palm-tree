@@ -2,10 +2,30 @@
   "clientSchemaVersion": 1,
   "serverSchemaVersion": 4,
   "pageOrder": [
-    "Home"
+    "Home",
+    "Page1",
+    "Movies",
+    "Movies Copy",
+    "Movies Copy1",
+    "Movies Copy2",
+    "Movies Copy2 Copy",
+    "Movies Copy2 Copy Copy",
+    "Movies Copy2 Copy Copy Copy",
+    "Movies Copy2 Copy Copy Copy Copy",
+    "Movies Copy2 Copy Copy Copy Copy Copy"
   ],
   "publishedPageOrder": [
-    "Home"
+    "Home",
+    "Page1",
+    "Movies",
+    "Movies Copy",
+    "Movies Copy1",
+    "Movies Copy2",
+    "Movies Copy2 Copy",
+    "Movies Copy2 Copy Copy",
+    "Movies Copy2 Copy Copy Copy",
+    "Movies Copy2 Copy Copy Copy Copy",
+    "Movies Copy2 Copy Copy Copy Copy Copy"
   ],
   "publishedDefaultPageName": "Home",
   "unpublishedDefaultPageName": "Home",
@@ -57,6 +77,150 @@
     "Home_updateOrderDetails": {
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
+    },
+    "Movies Copy1_DeleteQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Movies Copy1_FindQuery": {
+      "unpublishedUserSetOnLoad": true,
+      "publishedUserSetOnLoad": true
+    },
+    "Movies Copy1_InsertQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Movies Copy1_UpdateQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Movies Copy2 Copy Copy Copy Copy Copy_DeleteQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Movies Copy2 Copy Copy Copy Copy Copy_FindQuery": {
+      "unpublishedUserSetOnLoad": true,
+      "publishedUserSetOnLoad": true
+    },
+    "Movies Copy2 Copy Copy Copy Copy Copy_InsertQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Movies Copy2 Copy Copy Copy Copy Copy_UpdateQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Movies Copy2 Copy Copy Copy Copy_DeleteQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Movies Copy2 Copy Copy Copy Copy_FindQuery": {
+      "unpublishedUserSetOnLoad": true,
+      "publishedUserSetOnLoad": true
+    },
+    "Movies Copy2 Copy Copy Copy Copy_InsertQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Movies Copy2 Copy Copy Copy Copy_UpdateQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Movies Copy2 Copy Copy Copy_DeleteQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Movies Copy2 Copy Copy Copy_FindQuery": {
+      "unpublishedUserSetOnLoad": true,
+      "publishedUserSetOnLoad": true
+    },
+    "Movies Copy2 Copy Copy Copy_InsertQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Movies Copy2 Copy Copy Copy_UpdateQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Movies Copy2 Copy Copy_DeleteQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Movies Copy2 Copy Copy_FindQuery": {
+      "unpublishedUserSetOnLoad": true,
+      "publishedUserSetOnLoad": true
+    },
+    "Movies Copy2 Copy Copy_InsertQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Movies Copy2 Copy Copy_UpdateQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Movies Copy2 Copy_DeleteQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Movies Copy2 Copy_FindQuery": {
+      "unpublishedUserSetOnLoad": true,
+      "publishedUserSetOnLoad": true
+    },
+    "Movies Copy2 Copy_InsertQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Movies Copy2 Copy_UpdateQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Movies Copy2_DeleteQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Movies Copy2_FindQuery": {
+      "unpublishedUserSetOnLoad": true,
+      "publishedUserSetOnLoad": true
+    },
+    "Movies Copy2_InsertQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Movies Copy2_UpdateQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Movies Copy_DeleteQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Movies Copy_FindQuery": {
+      "unpublishedUserSetOnLoad": true,
+      "publishedUserSetOnLoad": true
+    },
+    "Movies Copy_InsertQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Movies Copy_UpdateQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Movies_DeleteQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Movies_FindQuery": {
+      "unpublishedUserSetOnLoad": true,
+      "publishedUserSetOnLoad": true
+    },
+    "Movies_InsertQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Movies_UpdateQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
     }
   },
   "publishedTheme": {
@@ -74,7 +238,63 @@
       }
     ]
   },
-  "publishedLayoutmongoEscapedWidgets": {},
-  "unpublishedLayoutmongoEscapedWidgets": {},
+  "publishedLayoutmongoEscapedWidgets": {
+    "Movies": [
+      "data_table"
+    ],
+    "Movies Copy": [
+      "data_table"
+    ],
+    "Movies Copy1": [
+      "data_table"
+    ],
+    "Movies Copy2": [
+      "data_table"
+    ],
+    "Movies Copy2 Copy": [
+      "data_table"
+    ],
+    "Movies Copy2 Copy Copy": [
+      "data_table"
+    ],
+    "Movies Copy2 Copy Copy Copy": [
+      "data_table"
+    ],
+    "Movies Copy2 Copy Copy Copy Copy": [
+      "data_table"
+    ],
+    "Movies Copy2 Copy Copy Copy Copy Copy": [
+      "data_table"
+    ]
+  },
+  "unpublishedLayoutmongoEscapedWidgets": {
+    "Movies": [
+      "data_table"
+    ],
+    "Movies Copy": [
+      "data_table"
+    ],
+    "Movies Copy1": [
+      "data_table"
+    ],
+    "Movies Copy2": [
+      "data_table"
+    ],
+    "Movies Copy2 Copy": [
+      "data_table"
+    ],
+    "Movies Copy2 Copy Copy": [
+      "data_table"
+    ],
+    "Movies Copy2 Copy Copy Copy": [
+      "data_table"
+    ],
+    "Movies Copy2 Copy Copy Copy Copy": [
+      "data_table"
+    ],
+    "Movies Copy2 Copy Copy Copy Copy Copy": [
+      "data_table"
+    ]
+  },
   "fileFormatVersion": 2
 }
