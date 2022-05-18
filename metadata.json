@@ -17,7 +17,9 @@
     "Page8",
     "Page9",
     "Page10",
-    "Page11"
+    "Page11",
+    "Page12",
+    "Page13"
   ],
   "publishedPageOrder": [
     "Home",
@@ -35,7 +37,9 @@
     "Page8",
     "Page9",
     "Page10",
-    "Page11"
+    "Page11",
+    "Page12",
+    "Page13"
   ],
   "publishedDefaultPageName": "Home",
   "unpublishedDefaultPageName": "Home",
