@@ -19,13 +19,14 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 57,
+          "version": 59,
           "minHeight": 710,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0,
           "children": [
             {
+              "boxShadow": "none",
               "widgetName": "Text1",
               "displayName": "Text",
               "iconSVG": "/static/media/icon.97c59b52.svg",
@@ -38,6 +39,7 @@
               "overflow": "NONE",
               "parentColumnSpace": 12.5625,
               "dynamicTriggerPathList": [],
+              "fontFamily": "System Default",
               "leftColumn": 10,
               "dynamicBindingPathList": [
                 {
@@ -48,6 +50,7 @@
               "truncateButtonColor": "#FFC13D",
               "text": "{{JSObject1.getString()}}",
               "key": "t7ectlrbv4",
+              "labelTextSize": "0.875rem",
               "rightColumn": 26,
               "textAlign": "LEFT",
               "widgetId": "dgoxjvwtba",
@@ -58,9 +61,11 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "fontSize": "PARAGRAPH"
+              "borderRadius": "0px",
+              "fontSize": "0.875rem"
             },
             {
+              "boxShadow": "none",
               "widgetName": "data_table",
               "defaultPageSize": 0,
               "columnOrder": [
@@ -130,6 +135,9 @@
                 },
                 {
                   "key": "primaryColumns.homepage.computedValue"
+                },
+                {
+                  "key": "accentColor"
                 }
               ],
               "leftColumn": 6,
@@ -141,7 +149,7 @@
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
                   "columnType": "text",
-                  "textSize": "PARAGRAPH",
+                  "textSize": "0.875rem",
                   "enableFilter": true,
                   "enableSort": true,
                   "isVisible": true,
@@ -149,7 +157,9 @@
                   "isCellVisible": true,
                   "isDerived": false,
                   "label": "_id",
-                  "computedValue": "{{data_table.sanitizedTableData.map((currentRow) => ( currentRow._id))}}"
+                  "computedValue": "{{data_table.sanitizedTableData.map((currentRow) => ( currentRow._id))}}",
+                  "borderRadius": "0px",
+                  "boxShadow": "none"
                 },
                 "revenue": {
                   "index": 0,
@@ -158,7 +168,7 @@
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
                   "columnType": "text",
-                  "textSize": "PARAGRAPH",
+                  "textSize": "0.875rem",
                   "enableFilter": true,
                   "enableSort": true,
                   "isVisible": true,
@@ -166,7 +176,9 @@
                   "isCellVisible": true,
                   "isDerived": false,
                   "label": "revenue",
-                  "computedValue": "{{data_table.sanitizedTableData.map((currentRow) => ( currentRow.revenue))}}"
+                  "computedValue": "{{data_table.sanitizedTableData.map((currentRow) => ( currentRow.revenue))}}",
+                  "borderRadius": "0px",
+                  "boxShadow": "none"
                 },
                 "imdb_id": {
                   "index": 1,
@@ -175,7 +187,7 @@
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
                   "columnType": "text",
-                  "textSize": "PARAGRAPH",
+                  "textSize": "0.875rem",
                   "enableFilter": true,
                   "enableSort": true,
                   "isVisible": true,
@@ -183,7 +195,9 @@
                   "isCellVisible": true,
                   "isDerived": false,
                   "label": "imdb_id",
-                  "computedValue": "{{data_table.sanitizedTableData.map((currentRow) => ( currentRow.imdb_id))}}"
+                  "computedValue": "{{data_table.sanitizedTableData.map((currentRow) => ( currentRow.imdb_id))}}",
+                  "borderRadius": "0px",
+                  "boxShadow": "none"
                 },
                 "release_date": {
                   "index": 2,
@@ -192,7 +206,7 @@
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
                   "columnType": "text",
-                  "textSize": "PARAGRAPH",
+                  "textSize": "0.875rem",
                   "enableFilter": true,
                   "enableSort": true,
                   "isVisible": true,
@@ -200,7 +214,9 @@
                   "isCellVisible": true,
                   "isDerived": false,
                   "label": "release_date",
-                  "computedValue": "{{data_table.sanitizedTableData.map((currentRow) => ( currentRow.release_date))}}"
+                  "computedValue": "{{data_table.sanitizedTableData.map((currentRow) => ( currentRow.release_date))}}",
+                  "borderRadius": "0px",
+                  "boxShadow": "none"
                 },
                 "genres": {
                   "index": 3,
@@ -209,7 +225,7 @@
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
                   "columnType": "text",
-                  "textSize": "PARAGRAPH",
+                  "textSize": "0.875rem",
                   "enableFilter": true,
                   "enableSort": true,
                   "isVisible": true,
@@ -217,7 +233,9 @@
                   "isCellVisible": true,
                   "isDerived": false,
                   "label": "genres",
-                  "computedValue": "{{data_table.sanitizedTableData.map((currentRow) => ( currentRow.genres))}}"
+                  "computedValue": "{{data_table.sanitizedTableData.map((currentRow) => ( currentRow.genres))}}",
+                  "borderRadius": "0px",
+                  "boxShadow": "none"
                 },
                 "vote_average": {
                   "index": 4,
@@ -226,7 +244,7 @@
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
                   "columnType": "text",
-                  "textSize": "PARAGRAPH",
+                  "textSize": "0.875rem",
                   "enableFilter": true,
                   "enableSort": true,
                   "isVisible": true,
@@ -234,7 +252,9 @@
                   "isCellVisible": true,
                   "isDerived": false,
                   "label": "vote_average",
-                  "computedValue": "{{data_table.sanitizedTableData.map((currentRow) => ( currentRow.vote_average))}}"
+                  "computedValue": "{{data_table.sanitizedTableData.map((currentRow) => ( currentRow.vote_average))}}",
+                  "borderRadius": "0px",
+                  "boxShadow": "none"
                 },
                 "tagline": {
                   "index": 5,
@@ -243,7 +263,7 @@
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
                   "columnType": "text",
-                  "textSize": "PARAGRAPH",
+                  "textSize": "0.875rem",
                   "enableFilter": true,
                   "enableSort": true,
                   "isVisible": true,
@@ -251,7 +271,9 @@
                   "isCellVisible": true,
                   "isDerived": false,
                   "label": "tagline",
-                  "computedValue": "{{data_table.sanitizedTableData.map((currentRow) => ( currentRow.tagline))}}"
+                  "computedValue": "{{data_table.sanitizedTableData.map((currentRow) => ( currentRow.tagline))}}",
+                  "borderRadius": "0px",
+                  "boxShadow": "none"
                 },
                 "title": {
                   "index": 7,
@@ -260,7 +282,7 @@
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
                   "columnType": "text",
-                  "textSize": "PARAGRAPH",
+                  "textSize": "0.875rem",
                   "enableFilter": true,
                   "enableSort": true,
                   "isVisible": true,
@@ -268,7 +290,9 @@
                   "isCellVisible": true,
                   "isDerived": false,
                   "label": "title",
-                  "computedValue": "{{data_table.sanitizedTableData.map((currentRow) => ( currentRow.title))}}"
+                  "computedValue": "{{data_table.sanitizedTableData.map((currentRow) => ( currentRow.title))}}",
+                  "borderRadius": "0px",
+                  "boxShadow": "none"
                 },
                 "vote_count": {
                   "index": 8,
@@ -277,7 +301,7 @@
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
                   "columnType": "text",
-                  "textSize": "PARAGRAPH",
+                  "textSize": "0.875rem",
                   "enableFilter": true,
                   "enableSort": true,
                   "isVisible": true,
@@ -285,7 +309,9 @@
                   "isCellVisible": true,
                   "isDerived": false,
                   "label": "vote_count",
-                  "computedValue": "{{data_table.sanitizedTableData.map((currentRow) => ( currentRow.vote_count))}}"
+                  "computedValue": "{{data_table.sanitizedTableData.map((currentRow) => ( currentRow.vote_count))}}",
+                  "borderRadius": "0px",
+                  "boxShadow": "none"
                 },
                 "poster_path": {
                   "index": 9,
@@ -294,7 +320,7 @@
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
                   "columnType": "text",
-                  "textSize": "PARAGRAPH",
+                  "textSize": "0.875rem",
                   "enableFilter": true,
                   "enableSort": true,
                   "isVisible": true,
@@ -302,7 +328,9 @@
                   "isCellVisible": true,
                   "isDerived": false,
                   "label": "poster_path",
-                  "computedValue": "{{data_table.sanitizedTableData.map((currentRow) => ( currentRow.poster_path))}}"
+                  "computedValue": "{{data_table.sanitizedTableData.map((currentRow) => ( currentRow.poster_path))}}",
+                  "borderRadius": "0px",
+                  "boxShadow": "none"
                 },
                 "status": {
                   "index": 2,
@@ -311,7 +339,7 @@
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
                   "columnType": "text",
-                  "textSize": "PARAGRAPH",
+                  "textSize": "0.875rem",
                   "enableFilter": true,
                   "enableSort": true,
                   "isVisible": true,
@@ -321,7 +349,9 @@
                   "computedValue": "{{data_table.sanitizedTableData.map((currentRow) => ( currentRow.status))}}",
                   "buttonColor": "#03B365",
                   "menuColor": "#03B365",
-                  "labelColor": "#FFFFFF"
+                  "labelColor": "#FFFFFF",
+                  "borderRadius": "0px",
+                  "boxShadow": "none"
                 },
                 "homepage": {
                   "index": 10,
@@ -330,7 +360,7 @@
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
                   "columnType": "text",
-                  "textSize": "PARAGRAPH",
+                  "textSize": "0.875rem",
                   "enableFilter": true,
                   "enableSort": true,
                   "isVisible": true,
@@ -338,15 +368,19 @@
                   "isCellVisible": true,
                   "isDerived": false,
                   "label": "homepage",
-                  "computedValue": "{{data_table.sanitizedTableData.map((currentRow) => ( currentRow.homepage))}}"
+                  "computedValue": "{{data_table.sanitizedTableData.map((currentRow) => ( currentRow.homepage))}}",
+                  "borderRadius": "0px",
+                  "boxShadow": "none"
                 }
               },
               "delimiter": ",",
               "key": "6o6uuye3t2",
               "derivedColumns": {},
+              "labelTextSize": "0.875rem",
               "rightColumn": 60,
-              "textSize": "PARAGRAPH",
+              "textSize": "0.875rem",
               "widgetId": "marm95waq7",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
               "isVisibleFilters": true,
               "tableData": "{{JSObject1.getData.data}}",
               "isVisible": true,
@@ -360,6 +394,24 @@
               "isLoading": false,
               "horizontalAlignment": "LEFT",
               "isVisibleSearch": true,
+              "childStylesheet": {
+                "button": {
+                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "menuButton": {
+                  "menuColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "iconButton": {
+                  "menuColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                }
+              },
+              "borderRadius": "0px",
               "isVisiblePagination": true,
               "verticalAlignment": "CENTER",
               "columnSizeMap": {
