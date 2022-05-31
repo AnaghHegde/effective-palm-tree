@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 57,
+          "version": 59,
           "minHeight": 710,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
@@ -27,6 +27,9 @@
           "children": []
         },
         "layoutOnLoadActions": [],
+        "widgetNames": [
+          "MainContainer"
+        ],
         "validOnPageLoadActions": true,
         "id": "Page3",
         "deleted": false,

@@ -14,7 +14,8 @@
     "Movies Copy2 Copy Copy Copy Copy",
     "Movies Copy2 Copy Copy Copy Copy Copy",
     "Page2",
-    "Page3"
+    "Page3",
+    "MoviesPage"
   ],
   "publishedPageOrder": [
     "Home",
@@ -29,7 +30,8 @@
     "Movies Copy2 Copy Copy Copy Copy",
     "Movies Copy2 Copy Copy Copy Copy Copy",
     "Page2",
-    "Page3"
+    "Page3",
+    "MoviesPage"
   ],
   "publishedDefaultPageName": "Home",
   "unpublishedDefaultPageName": "Home",
@@ -210,6 +212,22 @@
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
     },
+    "MoviesPage_DeleteQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "MoviesPage_FindQuery": {
+      "unpublishedUserSetOnLoad": true,
+      "publishedUserSetOnLoad": true
+    },
+    "MoviesPage_InsertQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "MoviesPage_UpdateQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
     "Movies_DeleteQuery": {
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
@@ -267,6 +285,9 @@
     "Movies Copy2 Copy Copy Copy Copy Copy": [
       "data_table"
     ],
+    "MoviesPage": [
+      "data_table"
+    ],
     "Page1": [
       "data_table"
     ]
@@ -297,6 +318,9 @@
       "data_table"
     ],
     "Movies Copy2 Copy Copy Copy Copy Copy": [
+      "data_table"
+    ],
+    "MoviesPage": [
       "data_table"
     ],
     "Page1": [
