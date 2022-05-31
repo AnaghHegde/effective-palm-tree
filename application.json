@@ -4,6 +4,12 @@
   "unreadCommentThreads": 0,
   "color": "#C7F3E3",
   "icon": "pizza",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
+  "publishedAppLayout": {
+    "type": "FLUID"
+  },
   "evaluationVersion": 2,
   "applicationVersion": 2,
   "forkingEnabled": true,
