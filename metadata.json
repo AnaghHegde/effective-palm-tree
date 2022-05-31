@@ -19,7 +19,8 @@
     "Page10",
     "Page11",
     "Page12",
-    "Page13"
+    "Page13",
+    "New page_added"
   ],
   "publishedPageOrder": [
     "Home",
@@ -39,7 +40,8 @@
     "Page10",
     "Page11",
     "Page12",
-    "Page13"
+    "Page13",
+    "New page_added"
   ],
   "publishedDefaultPageName": "Home",
   "unpublishedDefaultPageName": "Home",
@@ -268,21 +270,6 @@
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
     }
-  },
-  "publishedTheme": {
-    "name": "Classic",
-    "displayName": "Classic",
-    "isSystemTheme": true,
-    "deleted": false,
-    "policies": [
-      {
-        "permission": "read:themes",
-        "users": [
-          "anonymousUser"
-        ],
-        "groups": []
-      }
-    ]
   },
   "publishedLayoutmongoEscapedWidgets": {
     "Movies": [
