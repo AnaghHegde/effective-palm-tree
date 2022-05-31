@@ -239,21 +239,6 @@
       "publishedUserSetOnLoad": false
     }
   },
-  "publishedTheme": {
-    "name": "Classic",
-    "displayName": "Classic",
-    "isSystemTheme": true,
-    "deleted": false,
-    "policies": [
-      {
-        "permission": "read:themes",
-        "users": [
-          "anonymousUser"
-        ],
-        "groups": []
-      }
-    ]
-  },
   "publishedLayoutmongoEscapedWidgets": {
     "Movies": [
       "data_table"
