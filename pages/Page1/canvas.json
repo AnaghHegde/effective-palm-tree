@@ -175,7 +175,7 @@
                   "isDisabled": false,
                   "isCellVisible": true,
                   "isDerived": false,
-                  "label": "revenue",
+                  "label": "revenue1",
                   "computedValue": "{{data_table.sanitizedTableData.map((currentRow) => ( currentRow.revenue))}}",
                   "borderRadius": "0px",
                   "boxShadow": "none"
