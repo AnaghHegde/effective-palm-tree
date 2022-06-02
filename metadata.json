@@ -12,7 +12,8 @@
     "Movies Copy2 Copy Copy",
     "Movies Copy2 Copy Copy Copy",
     "Movies Copy2 Copy Copy Copy Copy",
-    "Movies Copy2 Copy Copy Copy Copy Copy"
+    "Movies Copy2 Copy Copy Copy Copy Copy",
+    "Page2"
   ],
   "publishedPageOrder": [
     "Home",
@@ -25,7 +26,8 @@
     "Movies Copy2 Copy Copy",
     "Movies Copy2 Copy Copy Copy",
     "Movies Copy2 Copy Copy Copy Copy",
-    "Movies Copy2 Copy Copy Copy Copy Copy"
+    "Movies Copy2 Copy Copy Copy Copy Copy",
+    "Page2"
   ],
   "publishedDefaultPageName": "Home",
   "unpublishedDefaultPageName": "Home",
@@ -234,21 +236,6 @@
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
     }
-  },
-  "publishedTheme": {
-    "name": "Classic",
-    "displayName": "Classic",
-    "isSystemTheme": true,
-    "deleted": false,
-    "policies": [
-      {
-        "permission": "read:themes",
-        "users": [
-          "anonymousUser"
-        ],
-        "groups": []
-      }
-    ]
   },
   "publishedLayoutmongoEscapedWidgets": {
     "Movies": [
