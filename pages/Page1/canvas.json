@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 740,
+          "bottomRow": 880,
           "containerStyle": "none",
           "snapRows": 70,
           "parentRowSpace": 1,
@@ -426,7 +426,7 @@
               "displayName": "Currency Input",
               "iconSVG": "/static/media/icon.f312efcb.svg",
               "topRow": 68,
-              "bottomRow": 72,
+              "bottomRow": 73,
               "defaultCurrencyCode": "USD",
               "parentRowSpace": 10,
               "labelWidth": 5,
@@ -467,6 +467,93 @@
               "decimals": 0,
               "iconAlign": "left",
               "defaultText": ""
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "CurrencyInput2",
+              "displayName": "Currency Input",
+              "iconSVG": "/static/media/icon.f312efcb.svg",
+              "topRow": 76,
+              "bottomRow": 80,
+              "defaultCurrencyCode": "USD",
+              "parentRowSpace": 10,
+              "labelWidth": 5,
+              "autoFocus": false,
+              "type": "CURRENCY_INPUT_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 6.453125,
+              "resetOnSubmit": true,
+              "leftColumn": 7,
+              "dynamicBindingPathList": [
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "labelPosition": "Left",
+              "labelStyle": "",
+              "isDisabled": false,
+              "key": "lnruapccxm",
+              "labelTextSize": "0.875rem",
+              "isRequired": false,
+              "isDeprecated": false,
+              "rightColumn": 58,
+              "widgetId": "iqxk2o1fmr",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisible": true,
+              "label": "Label",
+              "allowCurrencyChange": false,
+              "version": 1,
+              "parentId": "0",
+              "labelAlignment": "left",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "decimals": 0,
+              "iconAlign": "left",
+              "defaultText": ""
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "Divider1",
+              "thickness": 2,
+              "displayName": "Divider",
+              "iconSVG": "/static/media/icon.cbe8f608.svg",
+              "topRow": 82,
+              "bottomRow": 86,
+              "parentRowSpace": 10,
+              "type": "DIVIDER_WIDGET",
+              "capType": "nc",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 6.453125,
+              "leftColumn": 7,
+              "dynamicBindingPathList": [
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "accentColor"
+                }
+              ],
+              "key": "saa0ag3dk9",
+              "dividerColor": "#EBEBEB",
+              "orientation": "horizontal",
+              "strokeStyle": "solid",
+              "isDeprecated": false,
+              "rightColumn": 60,
+              "widgetId": "wrc894hjlj",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "capSide": 0,
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
             }
           ]
         },
@@ -487,6 +574,8 @@
         ],
         "widgetNames": [
           "CurrencyInput1",
+          "CurrencyInput2",
+          "Divider1",
           "MainContainer",
           "Text1",
           "data_table"
