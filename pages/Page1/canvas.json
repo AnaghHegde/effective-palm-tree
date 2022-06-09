@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 700,
+          "bottomRow": 740,
           "containerStyle": "none",
           "snapRows": 70,
           "parentRowSpace": 1,
@@ -419,6 +419,54 @@
                 "step": 62,
                 "status": 75
               }
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "CurrencyInput1",
+              "displayName": "Currency Input",
+              "iconSVG": "/static/media/icon.f312efcb.svg",
+              "topRow": 68,
+              "bottomRow": 72,
+              "defaultCurrencyCode": "USD",
+              "parentRowSpace": 10,
+              "labelWidth": 5,
+              "autoFocus": false,
+              "type": "CURRENCY_INPUT_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 10.328125,
+              "resetOnSubmit": true,
+              "leftColumn": 6,
+              "dynamicBindingPathList": [
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "labelPosition": "Left",
+              "labelStyle": "",
+              "isDisabled": false,
+              "key": "lnruapccxm",
+              "labelTextSize": "0.875rem",
+              "isRequired": false,
+              "isDeprecated": false,
+              "rightColumn": 60,
+              "widgetId": "c4c8y2d12u",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisible": true,
+              "label": "Label",
+              "allowCurrencyChange": false,
+              "version": 1,
+              "parentId": "0",
+              "labelAlignment": "left",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "decimals": 0,
+              "iconAlign": "left",
+              "defaultText": ""
             }
           ]
         },
@@ -438,6 +486,7 @@
           ]
         ],
         "widgetNames": [
+          "CurrencyInput1",
           "MainContainer",
           "Text1",
           "data_table"
