@@ -122,7 +122,7 @@
               "key": "mktqirg3ws",
               "labelTextSize": "0.875rem",
               "backgroundColor": "#DD4B34",
-              "rightColumn": 7,
+              "rightColumn": 12,
               "widgetId": "fekw2pd6f1",
               "containerStyle": "card",
               "isVisible": "{{appsmith.mode ==='EDIT'}}",
@@ -152,7 +152,7 @@
               "animateLoading": true,
               "parentColumnSpace": 18.0625,
               "dynamicTriggerPathList": [],
-              "leftColumn": 46,
+              "leftColumn": 51,
               "dynamicBindingPathList": [],
               "children": [
                 {
@@ -381,7 +381,7 @@
               "animateLoading": true,
               "parentColumnSpace": 18.0625,
               "dynamicTriggerPathList": [],
-              "leftColumn": 33,
+              "leftColumn": 38,
               "dynamicBindingPathList": [],
               "children": [
                 {
@@ -580,7 +580,7 @@
               "key": "p5ueindstb",
               "labelTextSize": "0.875rem",
               "backgroundColor": "#2E3D49",
-              "rightColumn": 46,
+              "rightColumn": 51,
               "widgetId": "6sjp2bqram",
               "containerStyle": "card",
               "isVisible": true,
@@ -610,7 +610,7 @@
               "animateLoading": true,
               "parentColumnSpace": 18.0625,
               "dynamicTriggerPathList": [],
-              "leftColumn": 20,
+              "leftColumn": 25,
               "dynamicBindingPathList": [],
               "children": [
                 {
@@ -809,7 +809,7 @@
               "key": "p5ueindstb",
               "labelTextSize": "0.875rem",
               "backgroundColor": "#2E3D49",
-              "rightColumn": 33,
+              "rightColumn": 38,
               "widgetId": "kd247r2bz7",
               "containerStyle": "card",
               "isVisible": true,
@@ -839,7 +839,7 @@
               "animateLoading": true,
               "parentColumnSpace": 18.0625,
               "dynamicTriggerPathList": [],
-              "leftColumn": 7,
+              "leftColumn": 12,
               "dynamicBindingPathList": [],
               "children": [
                 {
@@ -1038,7 +1038,7 @@
               "key": "p5ueindstb",
               "labelTextSize": "0.875rem",
               "backgroundColor": "#2E3D49",
-              "rightColumn": 20,
+              "rightColumn": 25,
               "widgetId": "m07ci6ds3e",
               "containerStyle": "card",
               "isVisible": true,
@@ -1068,7 +1068,7 @@
               "animateLoading": true,
               "parentColumnSpace": 18.0625,
               "dynamicTriggerPathList": [],
-              "leftColumn": 7,
+              "leftColumn": 12,
               "dynamicBindingPathList": [],
               "children": [
                 {
@@ -1143,7 +1143,7 @@
               "key": "6bzu8mpizb",
               "labelTextSize": "0.875rem",
               "backgroundColor": "#2E3D49",
-              "rightColumn": 63,
+              "rightColumn": 64,
               "widgetId": "ef7v5rdjxi",
               "containerStyle": "card",
               "isVisible": true,
@@ -1173,7 +1173,7 @@
               "animateLoading": true,
               "parentColumnSpace": 16.25,
               "dynamicTriggerPathList": [],
-              "leftColumn": 7,
+              "leftColumn": 12,
               "dynamicBindingPathList": [],
               "children": [
                 {
@@ -2087,7 +2087,7 @@
               "key": "622ir4pabg",
               "labelTextSize": "0.875rem",
               "backgroundColor": "#FFFFFF",
-              "rightColumn": 29,
+              "rightColumn": 34,
               "widgetId": "wushw8vt62",
               "containerStyle": "card",
               "isVisible": true,
@@ -2117,7 +2117,7 @@
               "animateLoading": true,
               "parentColumnSpace": 16.25,
               "dynamicTriggerPathList": [],
-              "leftColumn": 29,
+              "leftColumn": 34,
               "dynamicBindingPathList": [],
               "children": [
                 {
@@ -3042,7 +3042,7 @@
               "key": "622ir4pabg",
               "labelTextSize": "0.875rem",
               "backgroundColor": "#FFFFFF",
-              "rightColumn": 63,
+              "rightColumn": 64,
               "widgetId": "9oc3posrop",
               "containerStyle": "card",
               "isVisible": true,
